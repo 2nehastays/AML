@@ -14,7 +14,6 @@ def test_flask():
     
     # Close the Flask app
     response = requests.post('http://127.0.0.1:5000/shutdown')
-    #os.system('kill %1')
 
 if __name__ == "__main__":
     main()
