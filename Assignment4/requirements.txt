@@ -1,0 +1,8 @@
+flask
+joblib
+score
+textblob
+pytest
+os
+requests
+subprocess
