@@ -12,7 +12,7 @@ import os
 
 
 
-@app.route('/score', methods=['POST'])
+@app.route('/score', methods=['GET','POST'])
 
 def score_text_1():
     
