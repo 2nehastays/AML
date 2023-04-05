@@ -11,7 +11,6 @@ def test_flask():
 
     container_id = subprocess.check_output(['docker', 'run', '-d', '-p', '5000:5000', 'test-flask-app']).decode().strip()
 
-    os.system('python app.py &')
 
     
     # Test cases
